@@ -1,9 +1,9 @@
 # CI-CFM — Chart-Covariant Composition of Intervention Flows
 
 A flow-matching method for predicting the effect of **combined** interventions, and the
-geometric argument for why the usual approach is wrong.
+geometric argument for why the usual approach is suboptimal.
 
-## The claim in one paragraph
+## Intro
 
 Latent perturbation models almost universally **add displacements**: each intervention is a
 vector, a combination is the sum. That is not a chart-independent operation — under a
@@ -28,7 +28,7 @@ depth and optimisation budget, differing only in the composition rule.
 The exposure semigroup holds to solver accuracy (`2.3e-7`) by construction, not by fitting,
 because each generator is autonomous and exposure is integration time.
 
-## What does *not* work (documented, not hidden)
+## Failure modes
 
 - A **global scalar** contraction helps in neither domain — state dependence is what matters.
 - The finance **exposure axis** is a distribution shift, not an extrapolation: an oracle
