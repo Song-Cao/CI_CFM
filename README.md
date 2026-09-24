@@ -1,4 +1,4 @@
-# COMPOSE-FM — Covariant Composition of Intervention Flows
+# CI-CFM — Chart-Covariant Composition of Intervention Flows
 
 A flow-matching method for predicting the effect of **combined** interventions, and the
 geometric argument for why the usual approach is wrong.
